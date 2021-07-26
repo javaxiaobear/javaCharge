@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "author": "xiaobear",
+  "license": "ISC",
+  "devDependencies": {
+    "@mr-hope/vuepress-plugin-copy-code": "^1.18.2",
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "@vuepress/plugin-nprogress": "^1.8.2",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-permalink-pinyin": "^1.0.0"
+  },
+  "dependencies": {}
+}
