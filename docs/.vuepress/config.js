@@ -72,7 +72,6 @@ module.exports = {
       { text: '码不停题', link: '/algorithm/' },
       { text: '面试专栏', link: '/interview/' },
       { text: '学习笔记', link: 'https://yhx1001.github.io/xiaobear_docsify/#/' },
-      { text: 'GitHub', link: 'https://github.com/yhx1001' },
       { text: '关于', link: '/about/' },
     ]
   },
