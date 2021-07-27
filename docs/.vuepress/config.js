@@ -5,7 +5,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: './xiaobear.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
-  base: '/xiaobear/', // 这是部署到github相关的配置
+  base: '/javaCharge/', // 这是部署到github相关的配置
   //页面滚动效果
   smoothScroll: true,
   markdown: {
