@@ -18,5 +18,8 @@
     "vuepress": "^1.8.2",
     "vuepress-plugin-permalink-pinyin": "^1.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "vuepress-plugin-cursor-effects": "^1.0.2",
+    "vuepress-plugin-go-top": "^1.0.4"
+  }
 }
