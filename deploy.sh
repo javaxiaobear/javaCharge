@@ -1,10 +1,6 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-#删除已打包文件
-git checkout gh-pages
-git rm gh-pages -r -f
-
 # 打包生成静态文件
 npm run docs:build
 
@@ -18,6 +14,6 @@ git commit -m 'deploy'
 
 # 覆盖式地将本地仓库发布至github，因为发布不需要保留历史记录
 # 格式为：git push -f git@github.com:'用户名'/'仓库名'.git master
-git push -f git@github.com:yhx1001/javaCharge.git master
+git push -f git@github.com:yhx1001/javaCharge.git master:gh-pages
 
 cd -
