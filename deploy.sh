@@ -1,8 +1,8 @@
 # 确保脚本抛出遇到的错误
 set -e
 #删除已打包文件
-cd docs/.vuepress/
-rm -rf dist;
+git checkout gh-pages
+git rm gh-pages -r -f
 # 打包生成静态文件
 npm run docs:build
 
