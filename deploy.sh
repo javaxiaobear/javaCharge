@@ -1,6 +1,9 @@
 # 确保脚本抛出遇到的错误
 set -e
-#删除已打包文
+#删除已打包文件
+git checkout gh-pages
+rm -rf /
+cd docs/.vuepress
 rm -rf dist
 
 
