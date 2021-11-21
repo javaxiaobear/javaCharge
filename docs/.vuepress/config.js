@@ -81,7 +81,7 @@ module.exports = {
       //复制代码
     ["@mr-hope/copy-code"],
       //返回顶部
-    ['go-top'],
+   '@vuepress/back-to-top',
       //鼠标点击特效
     ['cursor-effects'],
     ['@vuepress/medium-zoom',{
