@@ -14,5 +14,5 @@ features:
 - title: 数据库
   details: 数据库主要以MySQL为主，多的可能是mysql性能优化，以及原理
 - title: Java开发框架
-  details: 框架这部门包含很多，入门框架有Spring、Spring MVC、Mybatis，目前SSH很少使用了，微服务生态这边有Spring Boot、Spring Cloud
+  details: 框架这部分包含很多，入门框架有Spring、Spring MVC、Mybatis，目前SSH很少使用了，微服务生态这边有Spring Boot、Spring Cloud
   footer: MIT Licensed | Copyright © 2021-present xiaobear
